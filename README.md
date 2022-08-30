@@ -1,2 +1,2 @@
-# Getting Started with job finder react app
+# Job finder React App
 Still under development..

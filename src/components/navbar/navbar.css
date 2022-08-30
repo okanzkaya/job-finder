@@ -29,10 +29,12 @@
   position: absolute;
   background-color: white;
   flex-direction: column;
-  height: 100%;
+  height: 150%;
   width: 60%;
   right: 0;
   padding-top: 0em;
+  transition: 850ms;
+  z-index: 99;
 }
 
 .sidebar-container {
@@ -40,10 +42,12 @@
   position: absolute;
   background-color: white;
   flex-direction: column;
-  height: 100%;
+  height: 150%;
   width: 60%;
-  right: -1000em;
+  right: -100%;
   padding-top: 0em;
+  transition: 850ms;
+  z-index: 99;
 }
 
 .sidebar-item {

@@ -11,7 +11,7 @@ export const reduxSlice = createSlice({
   reducers: {
     toggleNav: (state) => {
       state.sidebar = !state.sidebar
-      console.log(state.sidebar)
+      //console.log(state.sidebar)
     },
     decrement: (state) => {
       state.value -= 1;

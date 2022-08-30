@@ -1,8 +1,11 @@
 .navbar-container {
-  display: flex;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: auto auto;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   height: 100%;
+  margin: 0.2em 1em;
 }
 
 .navbar-item {
@@ -22,6 +25,7 @@
   font-size: 2em;
   line-height: 0em;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .sidebar-container-active {
@@ -32,7 +36,7 @@
   height: 150%;
   width: 60%;
   right: 0;
-  padding-top: 0em;
+  top: 0;
   transition: 850ms;
   z-index: 99;
 }
@@ -44,6 +48,7 @@
   flex-direction: column;
   height: 150%;
   width: 60%;
+  top: 0;
   right: -100%;
   padding-top: 0em;
   transition: 850ms;
@@ -86,4 +91,28 @@
 #help {
   color: #7000ff;
   text-decoration: none;
+}
+
+.desktop-navbar-list{
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  #burger-menu{
+    display: none;
+  }
+  .desktop-navbar-list{
+    display: flex;
+  }
+  .desktop-navbar-list a{
+    text-decoration: none;
+    color: black;
+    margin: 0em 1em;
+  }
+  .desktop-navbar-list img{
+    padding-right: 0.3em;
+  }
+  #logo{
+    font-size: 3em;
+  }
 }

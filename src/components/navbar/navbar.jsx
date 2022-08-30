@@ -14,8 +14,10 @@ const Navbar = () => {
   const dispatch = useDispatch();
   return (
     <nav className="navbar-container">
-      <div className="navbar-item" id="logo">
-        Jobecco
+      <div href="#" className="navbar-item">
+        <a href="#" id="logo">
+          Jobecco
+        </a>
       </div>
       <div className="navbar-item">
         <span
@@ -25,6 +27,17 @@ const Navbar = () => {
         >
           menu
         </span>
+        <ul className="desktop-navbar-list">
+          <a href="#">Home</a>
+          <a href="#">Jobs</a>
+          <a href="#">Categories</a>
+          <a href="#">About Us</a>
+          <a href="#">
+            <img src={upload} />
+            Upload resumé
+          </a>
+          <a href="#">My Profile</a>
+        </ul>
       </div>
       <Sidebar />
     </nav>
@@ -55,7 +68,10 @@ const Sidebar = () => {
   const wrapperRef = useRef(null);
   ClickDetector(wrapperRef);
   return (
-    <div className={"sidebar-container" + (sideBar ? "-active" : "")} ref={wrapperRef}>
+    <div
+      className={"sidebar-container" + (sideBar ? "-active" : "")}
+      ref={wrapperRef}
+    >
       <div className="sidebar-item">
         <a href="#" id="sidebar-logo">
           Jobecco

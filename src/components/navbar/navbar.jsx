@@ -1,6 +1,13 @@
 import "./navbar.css";
 import { useSelector, useDispatch } from "react-redux";
-import { increment } from "../../store/reducer";
+import { toggleNav } from "../../store/reducer";
+import home from "../../assets/home.svg";
+import categories from "../../assets/categories.svg";
+import info from "../../assets/info.svg";
+import jobs from "../../assets/jobs.svg";
+import personavatar from "../../assets/person-avatar.svg";
+import upload from "../../assets/upload.svg";
+import { useEffect, useRef } from "react";
 
 const Navbar = () => {
   const value = useSelector((state) => state.value);
@@ -8,22 +15,86 @@ const Navbar = () => {
   return (
     <nav className="navbar-container">
       <div className="navbar-item" id="logo">
-        {value}
+        Jobecco
       </div>
       <div className="navbar-item">
         <span
           id="burger-menu"
-          onClick={() => dispatch(increment())}
+          onClick={() => dispatch(toggleNav())}
           className="material-symbols-outlined"
         >
           menu
         </span>
       </div>
+      <Sidebar />
     </nav>
   );
 };
 
+function ClickDetector(ref) {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    function handleClickOutside(e) {
+      if (
+        ref.current &&
+        !ref.current.contains(e.target) &&
+        ref.current.className == "sidebar-container-active"
+      ) {
+        dispatch(toggleNav());
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [ref]);
+}
+
 const Sidebar = () => {
-  return <div className="sidebar"></div>;
+  const sideBar = useSelector((state) => state.sidebar);
+  const wrapperRef = useRef(null);
+  ClickDetector(wrapperRef);
+  return (
+    <div className={"sidebar-container" + (sideBar ? "-active" : "")} ref={wrapperRef}>
+      <div className="sidebar-item">
+        <a href="#" id="sidebar-logo">
+          Jobecco
+        </a>
+      </div>
+      <div className="sidebar-item">
+        <div className="menu-item">
+          <img src={home} />
+          <a href="#">Home</a>
+        </div>
+        <div className="menu-item">
+          <img src={jobs} />
+          <a href="#">Jobs</a>
+        </div>
+        <div className="menu-item">
+          <img src={categories} />
+          <a href="#">Categories</a>
+        </div>
+        <div className="menu-item">
+          <img src={info} />
+          <a href="#">About us</a>
+        </div>
+        <div className="menu-item">
+          <img src={upload} />
+          <a href="#">Upload resumé</a>
+        </div>
+        <div className="menu-item">
+          <img src={personavatar} />
+          <a href="#">My profile</a>
+        </div>
+      </div>
+      <div className="sidebar-item">
+        Need {""}
+        <a href="#" id="help">
+          Help?
+        </a>
+      </div>
+      <div className="sidebar-item"></div>
+    </div>
+  );
 };
 export default Navbar;

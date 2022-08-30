@@ -21,4 +21,65 @@
   color: #7000ff;
   font-size: 2em;
   line-height: 0em;
+  text-decoration: none;
+}
+
+.sidebar-container-active {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+  right: 0;
+  padding-top: 0em;
+}
+
+.sidebar-container {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+  right: -1000em;
+  padding-top: 0em;
+}
+
+.sidebar-item {
+  margin-top: 2em;
+}
+.sidebar-first-item {
+  margin-top: 5em;
+}
+
+#sidebar-logo {
+  font-family: "Fascinate", cursive;
+  color: #7000ff;
+  font-size: 2em;
+  line-height: 0em;
+  text-decoration: none;
+}
+
+.menu-item {
+  margin: 2em 1.6em;
+  display: grid;
+  align-items: center;
+  grid-auto-columns: 0.5fr 1fr;
+  grid-auto-flow: column;
+  font-size: 1em;
+  text-align: left;
+}
+
+.menu-item img {
+  width: 1.5em;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: black;
+}
+#help {
+  color: #7000ff;
+  text-decoration: none;
 }

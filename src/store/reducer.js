@@ -2,14 +2,16 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   value: 0,
+  sidebar: false,
 };
 
 export const reduxSlice = createSlice({
   name: "reducer",
   initialState,
   reducers: {
-    increment: (state) => {
-      state.value += 1;
+    toggleNav: (state) => {
+      state.sidebar = !state.sidebar
+      console.log(state.sidebar)
     },
     decrement: (state) => {
       state.value -= 1;
@@ -21,6 +23,6 @@ export const reduxSlice = createSlice({
 });
 
 // Action creators are generated for each case reducer function
-export const { increment, decrement, incrementByAmount } = reduxSlice.actions;
+export const { toggleNav, decrement, incrementByAmount } = reduxSlice.actions;
 
 export default reduxSlice.reducer;

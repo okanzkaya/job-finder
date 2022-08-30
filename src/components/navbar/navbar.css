@@ -1,0 +1,24 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 100%;
+}
+
+.navbar-item {
+  padding: 0.8em 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#burger-menu {
+  font-size: 2.5em;
+}
+
+#logo {
+  font-family: "Fascinate", cursive;
+  color: #7000ff;
+  font-size: 2em;
+  line-height: 0em;
+}

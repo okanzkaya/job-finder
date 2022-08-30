@@ -1,13 +1,21 @@
 import "./navbar.css";
+import { useSelector, useDispatch } from "react-redux";
+import { increment } from "../../store/reducer";
 
 const Navbar = () => {
+  const value = useSelector((state) => state.value);
+  const dispatch = useDispatch();
   return (
     <nav className="navbar-container">
       <div className="navbar-item" id="logo">
-        Jobecco
+        {value}
       </div>
       <div className="navbar-item">
-        <span id="burger-menu" class="material-symbols-outlined">
+        <span
+          id="burger-menu"
+          onClick={() => dispatch(increment())}
+          className="material-symbols-outlined"
+        >
           menu
         </span>
       </div>

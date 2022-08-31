@@ -10,11 +10,13 @@ import upload from "../../assets/upload.svg";
 import { useEffect, useRef } from "react";
 
 const Navbar = (props) => {
-  const value = useSelector((state) => state.value);
   const dispatch = useDispatch();
 
   return (
-    <nav className="navbar-container" style={{ backgroundColor: props.homePage === true? '#E0E0E0': ''}}>
+    <nav
+      className="navbar-container"
+      style={{ backgroundColor: props.homePage === true ? "#E0E0E0" : "" }}
+    >
       <div href="#" className="navbar-item">
         <a href="#" id="logo">
           Jobecco
@@ -29,8 +31,8 @@ const Navbar = (props) => {
           menu
         </span>
         <ul className="desktop-navbar-list">
-          <a href="#">Home</a>
-          <a href="#">Jobs</a>
+          <a href="/">Home</a>
+          <a href="jobs">Jobs</a>
           <a href="#">Categories</a>
           <a href="#">About us</a>
           <a href="#">
@@ -81,11 +83,11 @@ const Sidebar = () => {
       <div className="sidebar-item">
         <div className="menu-item">
           <img src={home} />
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </div>
         <div className="menu-item">
           <img src={jobs} />
-          <a href="#">Jobs</a>
+          <a href="/jobs">Jobs</a>
         </div>
         <div className="menu-item">
           <img src={categories} />

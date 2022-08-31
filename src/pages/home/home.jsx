@@ -84,7 +84,7 @@ const LatestJobs = () => {
                 <p>{jobPosting.companyName}</p>
               </div>
               <div className="job-details-home">
-                <h1>{jobPosting.title}</h1>
+                <h2>{jobPosting.title}</h2>
                 <p>{jobPosting.description}</p>
               </div>
             </a>
@@ -95,7 +95,7 @@ const LatestJobs = () => {
                 <p id="see-more-last-item-home">{jobPosting.companyName}</p>
               </div>
               <div className="job-details-home">
-                <h1 id="see-more-last-item-home">{jobPosting.title}</h1>
+                <h2 id="see-more-last-item-home">{jobPosting.title}</h2>
                 <p id="see-more-last-item-home">{jobPosting.description}</p>
               </div>
             </div>

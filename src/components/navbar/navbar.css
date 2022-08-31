@@ -57,6 +57,7 @@
 
 .sidebar-item {
   margin-top: 2em;
+  text-align: center;
 }
 .sidebar-first-item {
   margin-top: 5em;
@@ -93,34 +94,35 @@
   text-decoration: none;
 }
 
-.desktop-navbar-list{
+.desktop-navbar-list {
   display: none;
 }
 
 @media only screen and (min-width: 961px) {
-  #burger-menu{
+  #burger-menu {
     display: none;
   }
-  .desktop-navbar-list{
+  .desktop-navbar-list {
     display: flex;
   }
-  .desktop-navbar-list a{
+  .desktop-navbar-list a {
     text-decoration: none;
     color: black;
     margin: 0em 1em;
   }
-  .desktop-navbar-list img{
+  .desktop-navbar-list img {
     padding-right: 0.3em;
   }
-  #logo{
+  #logo {
     font-size: 3em;
   }
-  .sidebar-container{
+  .sidebar-container {
     display: hidden;
   }
-  .sidebar-container-active{
+  .sidebar-container-active {
     display: hidden;
   }
   .navbar-item {
-    padding: 1em 3em;}
+    padding: 1em 3em;
+  }
 }

@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  value: 0,
   sidebar: false,
+  jobsSidebar: false,
 };
 
 export const reduxSlice = createSlice({
@@ -10,19 +10,17 @@ export const reduxSlice = createSlice({
   initialState,
   reducers: {
     toggleNav: (state) => {
-      state.sidebar = !state.sidebar
+      state.sidebar = !state.sidebar;
       //console.log(state.sidebar)
     },
-    decrement: (state) => {
-      state.value -= 1;
-    },
-    incrementByAmount: (state, action) => {
-      state.value += action.payload;
+    toggleJobsSideBar: (state) => {
+      state.jobsSidebar = !state.jobsSidebar;
+      //console.log(state.jobsSidebar);
     },
   },
 });
 
 // Action creators are generated for each case reducer function
-export const { toggleNav, decrement, incrementByAmount } = reduxSlice.actions;
+export const { toggleNav, toggleJobsSideBar } = reduxSlice.actions;
 
 export default reduxSlice.reducer;

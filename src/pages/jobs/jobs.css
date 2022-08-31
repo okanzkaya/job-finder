@@ -1,0 +1,67 @@
+.jobs h1 {
+  font-weight: 600;
+}
+
+.close-jobs {
+  margin-bottom: 5em;
+}
+
+.jobs-sidebar-active {
+  padding-top: 2em;
+  position: absolute;
+  background-color: #EEEEEE;
+  grid-template-rows: 0.2fr 0.5fr 0.2fr;
+  display: grid;
+  height: 100%;
+  width: 60%;
+  top: 0;
+  left: 0;
+  transition: 650ms;
+  box-shadow: 5px 5px rgb(233, 231, 231);
+}
+
+.jobs-sidebar {
+  padding-top: 2em;
+  position: absolute;
+  background-color: #EEEEEE;
+  grid-template-rows: 0.2fr 0.5fr 0.2fr;
+  display: grid;
+  height: 100%;
+  width: 60%;
+  top: 0;
+  left: -100%;
+  transition: 650ms;
+}
+
+.jobs-sidebar-three-dots {
+  text-align: left;
+  margin-left: 2em;
+}
+
+.jobs-sidebar-item button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 3em;
+  background: #eeeeee;
+  border: 0.4px solid #000000;
+  border-radius: 30px;
+}
+#hiring {
+  font-size: 0.9em;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+}
+
+.jobs-sidebar-menu {
+  display: grid;
+  grid-template-columns: 0.13fr 0.9fr;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2em;
+  text-align: left;
+}
+
+.jobs-sidebar-menu p {
+  font-weight: 600;
+}

@@ -1,0 +1,29 @@
+.upper-home {
+  background-color: #e0e0e0;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-bottom: 3em;
+}
+
+#red-bg {
+  background-color: #ff9292;
+  padding: 0em 0.2em;
+}
+
+.upper-home h1 {
+  padding: 1em 0em;
+}
+
+.home-job-search {
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr;
+}
+
+.home-inputs {
+    background-color: white;
+}
+
+.search-by-title,
+.search-by-location {
+  display: flex;
+}

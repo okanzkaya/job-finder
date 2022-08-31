@@ -9,11 +9,12 @@ import personavatar from "../../assets/person-avatar.svg";
 import upload from "../../assets/upload.svg";
 import { useEffect, useRef } from "react";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const value = useSelector((state) => state.value);
   const dispatch = useDispatch();
+
   return (
-    <nav className="navbar-container">
+    <nav className="navbar-container" style={{ backgroundColor: props.homePage === true? '#E0E0E0': ''}}>
       <div href="#" className="navbar-item">
         <a href="#" id="logo">
           Jobecco
@@ -31,12 +32,12 @@ const Navbar = () => {
           <a href="#">Home</a>
           <a href="#">Jobs</a>
           <a href="#">Categories</a>
-          <a href="#">About Us</a>
+          <a href="#">About us</a>
           <a href="#">
             <img src={upload} />
             Upload resumé
           </a>
-          <a href="#">My Profile</a>
+          <a href="#">My profile</a>
         </ul>
       </div>
       <Sidebar />

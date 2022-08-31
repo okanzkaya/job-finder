@@ -65,13 +65,13 @@
 @media (min-width:961px)  { 
     .footer-container{
         grid-template-columns: 1fr 1fr 1fr;
-        padding: 1em 0em;
+        padding: 2em 3em;
         align-items: center;
     }
     .social-media-section{
         justify-content: space-around;
     }
     .footer-item{
-        margin: 0 1em;
+        margin: 0 3em;
     }
 }

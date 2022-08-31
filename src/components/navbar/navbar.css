@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  margin: 0.2em 1em;
+  width: 100%;
 }
 
 .navbar-item {
@@ -97,7 +97,7 @@
   display: none;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 961px) {
   #burger-menu{
     display: none;
   }

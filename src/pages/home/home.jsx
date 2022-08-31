@@ -10,7 +10,7 @@ import React from "react";
 const Home = () => {
   return (
     <React.Fragment>
-      <Navbar />
+      <Navbar homePage={true} />
       <UpperHome />
       <Categories />
       <LatestJobs />
@@ -23,7 +23,8 @@ const UpperHome = () => {
   return (
     <div className="upper-home">
       <h1>
-        Never stop, until you reach your <span id="red-bg">dreams</span>.
+        Never stop, until you <br />
+        reach your <span id="red-bg">dreams</span>.
       </h1>
       <div className="home-job-search">
         <div className="home-inputs">
@@ -77,7 +78,7 @@ const LatestJobs = () => {
       <div className="latest-jobs-items-home">
         {latestJobsData.map((jobPosting) =>
           jobPosting.id !== maxId ? (
-            <div className="latest-jobs-item-home" key={jobPosting.id}>
+            <a href="#" className="latest-jobs-item-home" key={jobPosting.id}>
               <div className="comp-details-home">
                 <img src={jobPosting.icon} />
                 <p>{jobPosting.companyName}</p>
@@ -86,7 +87,7 @@ const LatestJobs = () => {
                 <h1>{jobPosting.title}</h1>
                 <p>{jobPosting.description}</p>
               </div>
-            </div>
+            </a>
           ) : (
             <div className="latest-jobs-item-home" key={jobPosting.id}>
               <div className="comp-details-home">

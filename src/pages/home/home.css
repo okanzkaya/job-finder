@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .upper-home {
   background-color: #e0e0e0;
   border-bottom-right-radius: 30px;
@@ -11,19 +16,115 @@
 }
 
 .upper-home h1 {
-  padding: 1em 0em;
+  padding: 1em 0.5em;
+  text-align: left;
+  margin: 0;
 }
 
 .home-job-search {
+  width: 100%;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 0.7fr 0.3fr;
+  grid-template-columns: 0.8fr 0.15fr;
+  gap: 0;
+  grid-auto-rows: 1fr;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .home-inputs {
-    background-color: white;
+  display: grid;
+  grid-template-columns: 55% auto;
+  gap: 0.5em;
+  background-color: #ffffff;
+  padding: 0.4em 0.4em;
+  border-radius: 20px;
+  grid-row: auto;
 }
 
 .search-by-title,
 .search-by-location {
   display: flex;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  padding: 0.15em 0.4em;
+  border-radius: 20px;
+}
+
+.search-by-title input,
+.search-by-location input {
+  width: 70%;
+  border: 0;
+  background-color: #f2f2f2;
+}
+
+.search-by-title img,
+.search-by-location img {
+  max-width: 1.4em;
+  min-width: 1.4em;
+}
+
+.home-search {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+
+.home-search button {
+  background-color: #7583ff;
+  border: 0;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"] {
+  font-size: 0.55em;
+  font-family: "Open Sans", sans-serif;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.category-squares {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  margin: 0em 1em;
+}
+
+.category-choose-home {
+  margin: 2em 0em;
+}
+
+.category-choose-home h1 {
+  text-align: center;
+}
+
+.category-square {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 20px;
+  align-items: center;
+  font-size: 0.8em;
+  padding: 1em;
+  gap: 1em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.category-square img {
+  max-width: 2em;
+  min-width: 2em;
+  max-height: 2em;
+  min-height: 2em;
+}
+
+#see-much-more {
+  background: #cdcdcd;
 }

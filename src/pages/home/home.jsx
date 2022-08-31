@@ -3,12 +3,14 @@ import Navbar from "../../components/navbar/navbar";
 import magnifyglass from "../../assets/magnify-glass.svg";
 import jobs from "../../assets/jobs.svg";
 import location from "../../assets/location.svg";
+import { jobData } from "../../temp_data/data";
 
 const Home = () => {
   return (
     <div className="home">
       <Navbar />
       <UpperHome />
+      <Categories />
     </div>
   );
 };
@@ -23,11 +25,11 @@ const UpperHome = () => {
         <div className="home-inputs">
           <div className="search-by-title">
             <img src={jobs} />
-            <input></input>
+            <input type="text" placeholder="Job Title.."></input>
           </div>
           <div className="search-by-location">
             <img src={location} />
-            <input></input>
+            <input type="text" placeholder="City or Postal Code"></input>
           </div>
         </div>
         <div className="home-search">
@@ -35,6 +37,26 @@ const UpperHome = () => {
             <img src={magnifyglass} />
           </button>
         </div>
+      </div>
+    </div>
+  );
+};
+
+const Categories = () => {
+  return (
+    <div className="category-choose-home">
+      <h1>Choose your category</h1>
+      <div className="category-squares">
+        {jobData.map((item) => (
+          <a href="#" className="category-square">
+            <img src={item.icon} />
+            {item.name}
+          </a>
+        ))}
+        <a href="#" id="see-much-more" className="category-square">
+          <span className="material-symbols-outlined">dialpad</span>
+          See much more..
+        </a>
       </div>
     </div>
   );

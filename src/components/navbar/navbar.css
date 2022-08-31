@@ -121,4 +121,6 @@
   .sidebar-container-active{
     display: hidden;
   }
+  .navbar-item {
+    padding: 1em 3em;}
 }

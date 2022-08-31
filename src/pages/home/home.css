@@ -201,3 +201,8 @@ input:focus {
   font-size: 0.7em;
   font-family: "Open Sans", sans-serif;
 }
+
+.latest-jobs-home{
+  margin: 3em 0em;
+  margin-bottom: 5em;
+}

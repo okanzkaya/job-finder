@@ -1,18 +1,21 @@
 import "./home.css";
 import Navbar from "../../components/navbar/navbar";
+import Footer from "../../components/footer/footer";
 import magnifyglass from "../../assets/magnify-glass.svg";
 import jobs from "../../assets/jobs.svg";
 import location from "../../assets/location.svg";
 import { jobData, latestJobsData } from "../../temp_data/data";
+import React from "react";
 
 const Home = () => {
   return (
-    <div className="home">
+    <React.Fragment>
       <Navbar />
       <UpperHome />
       <Categories />
       <LatestJobs />
-    </div>
+      <Footer />
+    </React.Fragment>
   );
 };
 

@@ -45,8 +45,8 @@
   display: flex;
   position: absolute;
   background-color: white;
+  height: 100%;
   flex-direction: column;
-  height: 150%;
   width: 60%;
   top: 0;
   right: -100%;
@@ -114,5 +114,11 @@
   }
   #logo{
     font-size: 3em;
+  }
+  .sidebar-container{
+    display: hidden;
+  }
+  .sidebar-container-active{
+    display: hidden;
   }
 }

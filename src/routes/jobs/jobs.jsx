@@ -30,22 +30,45 @@ const Jobs = () => {
   );
 };
 
+let ids = latestJobsData.map((object) => {
+  return object.id;
+});
+let maxId = Math.max(...ids);
+
 const RecommendedJobs = () => {
   return (
     <div className="recommendedJobs">
       <h1>Recommended for you</h1>
-      {latestJobsDataNew.map((jobPosting) => (
-        <a href="#" className="latest-jobs-item-home" key={jobPosting.id}>
-          <div className="comp-details-home">
-            <img src={jobPosting.icon} />
-            <p>{jobPosting.companyName}</p>
+      {latestJobsData.map((jobPosting) =>
+        jobPosting.id !== maxId ? (
+          <a href="#" className="latest-jobs-item-home" key={jobPosting.id}>
+            <div className="comp-details-home">
+              <img src={jobPosting.icon} />
+              <p>{jobPosting.companyName}</p>
+            </div>
+            <div className="job-details-home">
+              <h2>{jobPosting.title}</h2>
+              <p>{jobPosting.description}</p>
+            </div>
+          </a>
+        ) : (
+          <div className="latest-jobs-item-home" key={jobPosting.id}>
+            <div className="comp-details-home">
+              <img id="see-more-last-item-home" src={jobPosting.icon} />
+              <p id="see-more-last-item-home">{jobPosting.companyName}</p>
+            </div>
+            <div className="job-details-home">
+              <h2 id="see-more-last-item-home">{jobPosting.title}</h2>
+              <p id="see-more-last-item-home">{jobPosting.description}</p>
+            </div>
           </div>
-          <div className="job-details-home">
-            <h2>{jobPosting.title}</h2>
-            <p>{jobPosting.description}</p>
-          </div>
-        </a>
-      ))}
+        )
+      )}{" "}
+      <div className="blur-the-last-home">
+        <button>
+          <a href="#">Show More</a>
+        </button>
+      </div>
     </div>
   );
 };
@@ -112,13 +135,6 @@ const JobsSideBar = () => {
             </div>
           ))}
         </div>
-
-        <div className="jobs-sidebar-item">
-          Need{" "}
-          <a href="#" id="help">
-            Help?
-          </a>
-        </div>
       </div>
     </div>
   );
@@ -155,18 +171,36 @@ const LatestJobs = () => {
   return (
     <div className="latest-jobs">
       <h1>Latest jobs</h1>
-      {latestJobsDataNew.map((jobPosting) => (
-        <a href="#" className="latest-jobs-item-home" key={jobPosting.id}>
-          <div className="comp-details-home">
-            <img src={jobPosting.icon} />
-            <p>{jobPosting.companyName}</p>
+      {latestJobsData.map((jobPosting) =>
+        jobPosting.id !== maxId ? (
+          <a href="#" className="latest-jobs-item-home" key={jobPosting.id}>
+            <div className="comp-details-home">
+              <img src={jobPosting.icon} />
+              <p>{jobPosting.companyName}</p>
+            </div>
+            <div className="job-details-home">
+              <h2>{jobPosting.title}</h2>
+              <p>{jobPosting.description}</p>
+            </div>
+          </a>
+        ) : (
+          <div className="latest-jobs-item-home" key={jobPosting.id}>
+            <div className="comp-details-home">
+              <img id="see-more-last-item-home" src={jobPosting.icon} />
+              <p id="see-more-last-item-home">{jobPosting.companyName}</p>
+            </div>
+            <div className="job-details-home">
+              <h2 id="see-more-last-item-home">{jobPosting.title}</h2>
+              <p id="see-more-last-item-home">{jobPosting.description}</p>
+            </div>
           </div>
-          <div className="job-details-home">
-            <h2>{jobPosting.title}</h2>
-            <p>{jobPosting.description}</p>
-          </div>
-        </a>
-      ))}
+        )
+      )}{" "}
+      <div className="blur-the-last-home">
+        <button>
+          <a href="#">Show More</a>
+        </button>
+      </div>
     </div>
   );
 };
@@ -175,18 +209,36 @@ const CloseJobs = () => {
   return (
     <div className="close-jobs">
       <h1>Close to your location</h1>
-      {latestJobsDataNew.map((jobPosting) => (
-        <a href="#" className="latest-jobs-item-home" key={jobPosting.id}>
-          <div className="comp-details-home">
-            <img src={jobPosting.icon} />
-            <p>{jobPosting.companyName}</p>
+      {latestJobsData.map((jobPosting) =>
+        jobPosting.id !== maxId ? (
+          <a href="#" className="latest-jobs-item-home" key={jobPosting.id}>
+            <div className="comp-details-home">
+              <img src={jobPosting.icon} />
+              <p>{jobPosting.companyName}</p>
+            </div>
+            <div className="job-details-home">
+              <h2>{jobPosting.title}</h2>
+              <p>{jobPosting.description}</p>
+            </div>
+          </a>
+        ) : (
+          <div className="latest-jobs-item-home" key={jobPosting.id}>
+            <div className="comp-details-home">
+              <img id="see-more-last-item-home" src={jobPosting.icon} />
+              <p id="see-more-last-item-home">{jobPosting.companyName}</p>
+            </div>
+            <div className="job-details-home">
+              <h2 id="see-more-last-item-home">{jobPosting.title}</h2>
+              <p id="see-more-last-item-home">{jobPosting.description}</p>
+            </div>
           </div>
-          <div className="job-details-home">
-            <h2>{jobPosting.title}</h2>
-            <p>{jobPosting.description}</p>
-          </div>
-        </a>
-      ))}
+        )
+      )}
+      <div className="blur-the-last-home">
+        <button>
+          <a href="#">Show More</a>
+        </button>
+      </div>
     </div>
   );
 };

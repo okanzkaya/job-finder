@@ -69,7 +69,7 @@
 .jobs-sidemenu {
   position: fixed;
   display: grid;
-  top: 10.3em;
+  top: 8em;
   left: 3em;
   background-color: rgb(255, 255, 255);
   width: 15em;

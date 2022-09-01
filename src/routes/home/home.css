@@ -197,6 +197,7 @@ input:focus {
 }
 .blur-the-last-home {
   margin: -2.85em;
+  margin-bottom: 2em;
 }
 .blur-the-last-home button {
   font-size: 1.3em;

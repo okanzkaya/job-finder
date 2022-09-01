@@ -34,7 +34,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  margin: 0 1em;
+  margin: 0 0.2em;
   margin-top: 1em;
 }
 
@@ -46,9 +46,10 @@
 .footer-link {
   display: flex;
   flex-direction: column;
-  gap: 0.4em;
+  gap: 0.2em;
   font-size: 0.9em;
   font-weight: 300;
+  white-space: nowrap;
 }
 
 .social-media-section {

@@ -32,14 +32,14 @@ const Navbar = (props) => {
         </span>
         <ul className="desktop-navbar-list">
           <a href="/">Home</a>
-          <a href="jobs">Jobs</a>
-          <a href="#">Categories</a>
+          <a href="/jobs">Jobs</a>
+          <a href="/categories">Categories</a>
           <a href="#">About us</a>
           <a href="#">
             <img src={upload} />
             Upload resumé
           </a>
-          <a href="#">My profile</a>
+          <a href="#">Profile</a>
         </ul>
       </div>
       <Sidebar />
@@ -91,7 +91,7 @@ const Sidebar = () => {
         </div>
         <div className="menu-item">
           <img src={categories} />
-          <a href="#">Categories</a>
+          <a href="/categories">Categories</a>
         </div>
         <div className="menu-item">
           <img src={info} />
@@ -103,7 +103,7 @@ const Sidebar = () => {
         </div>
         <div className="menu-item">
           <img src={personavatar} />
-          <a href="#">My profile</a>
+          <a href="#">Profile</a>
         </div>
       </div>
       <div className="sidebar-item">

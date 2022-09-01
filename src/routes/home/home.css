@@ -179,7 +179,8 @@ input:focus {
 .job-details-home h2 {
   font-size: 0.8em;
   line-height: normal;
-  margin: 0.4em 0;
+  margin: 0;
+  margin-top: 0.3em;
   text-align: left;
 }
 
@@ -187,8 +188,8 @@ input:focus {
   font-size: 0.7em;
   text-align: left;
   margin: 0;
-  margin-top: 0.2em;
-  padding: 0.3em 0;
+  margin-bottom: 0.3em;
+  padding: 0.5em 0;
 }
 
 #see-more-last-item-home {

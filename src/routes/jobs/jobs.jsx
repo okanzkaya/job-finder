@@ -20,6 +20,7 @@ const Jobs = () => {
   return (
     <div className="jobs">
       <Navbar />
+      <JobsSidemenu />
       <JobsSideBar />
       <RecommendedJobs />
       <LatestJobs />
@@ -118,6 +119,33 @@ const JobsSideBar = () => {
             Help?
           </a>
         </div>
+      </div>
+    </div>
+  );
+};
+
+const JobsSidemenu = () => {
+  return (
+    <div className="jobs-sidemenu">
+      <div className="jobs-sidemenu-item">
+        <p id="hiring">Are you hiring?</p>
+        <button>
+          <img src={postjob} /> Post a job
+        </button>
+      </div>
+      <div className="jobs-sidemenu-item">
+        {jobsSidebarItems.map((item) => (
+          <div className="jobs-sidebar-menu" key={item.id}>
+            <img src={item.icon} />
+            <p>{item.text}</p>
+          </div>
+        ))}
+      </div>
+      <div className="jobs-sidemenu-item">
+        Need{" "}
+        <a href="#" id="help">
+          Help?
+        </a>
       </div>
     </div>
   );

@@ -28,70 +28,70 @@ export const latestJobsData = [
   {
     title: "Full Stack Web Developer (ReactJS & NodeJS)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
     companyName: "Lorem Inc.",
     icon: jobs,
   },
   {
     title: "Full Stack Web Developer (ReactJS & NodeJS)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
     companyName: "Lorem Inc.",
     icon: jobs,
   },
   {
     title: "Full Stack Web Developer (ReactJS & NodeJS)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
     companyName: "Lorem Inc.",
     icon: jobs,
   },
   {
     title: "Full Stack Web Developer (ReactJS & NodeJS)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
     companyName: "Lorem Inc.",
     icon: jobs,
   },
   {
     title: "Full Stack Web Developer (ReactJS & NodeJS)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
     companyName: "Lorem Inc.",
     icon: jobs,
   },
   {
     title: "Full Stack Web Developer (ReactJS & NodeJS)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
     companyName: "Lorem Inc.",
     icon: jobs,
   },
   {
     title: "Full Stack Web Developer (ReactJS & NodeJS)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
     companyName: "Lorem Inc.",
     icon: jobs,
   },
   {
     title: "Full Stack Web Developer (ReactJS & NodeJS)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
     companyName: "Lorem Inc.",
     icon: jobs,
   },
   {
     title: "Full Stack Web Developer (ReactJS & NodeJS)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
     companyName: "Lorem Inc.",
     icon: jobs,
   },
   {
     title: "Full Stack Web Developer (ReactJS & NodeJS)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna..",
     companyName: "Lorem Inc.",
     icon: jobs,
   },

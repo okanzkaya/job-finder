@@ -65,3 +65,39 @@
 .jobs-sidebar-menu p {
   font-weight: 600;
 }
+
+.jobs-sidemenu {
+  position: fixed;
+  display: grid;
+  top: 10.3em;
+  left: 3em;
+  background-color: rgb(255, 255, 255);
+  width: 15em;
+  border-radius: 15px;
+  gap: 2em;
+  padding: 2em 0;
+  display: none;
+}
+
+.jobs-sidemenu-item button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 3em;
+  background: #eeeeee;
+  border: 0.4px solid #000000;
+  border-radius: 30px;
+}
+
+@media only screen and (min-width: 961px) {
+  .jobs-sidebar-elements {
+    display: none;
+  }
+  .jobs h1 {
+    width: 40%;
+    margin: 1em auto;
+    text-align: left;
+  }
+  .jobs-sidemenu {
+    display: grid;
+  }
+}

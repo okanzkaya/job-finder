@@ -35,10 +35,10 @@ const Footer = () => {
       </div>
       <div className="footer-item">
         <div className="social-media-section">
-          <div className="social-media-text">
-            Follow us on <br /> Social Media!
-          </div>
           <div className="social-media-icons">
+            <p>
+              Follow us on <br /> Social Media!
+            </p>
             <a href="#">
               <img src={facebookicon} />
             </a>

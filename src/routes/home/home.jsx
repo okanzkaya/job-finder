@@ -58,7 +58,7 @@ const Categories = () => {
             {item.name}
           </a>
         ))}
-        <a href="#" id="see-much-more" className="category-square">
+        <a href="/categories" id="see-much-more" className="category-square">
           <span className="material-symbols-outlined">dialpad</span>
           See much more..
         </a>
@@ -103,7 +103,7 @@ const LatestJobs = () => {
         )}
         <div className="blur-the-last-home">
           <button>
-            <a href="#">Show More</a>
+            <a href="/jobs">Show More</a>
           </button>
         </div>
       </div>

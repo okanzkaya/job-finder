@@ -9,7 +9,7 @@
 .jobs-sidebar-active {
   padding-top: 2em;
   position: absolute;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   grid-template-rows: 0.2fr 0.5fr 0.2fr;
   display: grid;
   height: 100%;
@@ -23,7 +23,7 @@
 .jobs-sidebar {
   padding-top: 2em;
   position: absolute;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   grid-template-rows: 0.2fr 0.5fr 0.2fr;
   display: grid;
   height: 100%;

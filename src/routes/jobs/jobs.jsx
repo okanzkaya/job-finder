@@ -84,7 +84,7 @@ const JobsSideBar = () => {
   const dispatch = useDispatch();
   const wrapperRef = useRef(null);
   const jobsSideBar = useSelector((state) => state.jobsSidebar);
-  ClickDetector(wrapperRef)
+  ClickDetector(wrapperRef);
   return (
     <div className="jobs-sidebar-elements">
       <div className="jobs-sidebar-three-dots">

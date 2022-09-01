@@ -51,27 +51,27 @@
   font-weight: 300;
 }
 
-.social-media-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    margin: 2em 0;
+.social-media-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0;
 }
-.social-media-icons a{
-    margin: 0em 0.5em;
+.social-media-icons a {
+  margin: 0em 0.5em;
 }
 
-@media (min-width:961px)  { 
-    .footer-container{
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 2em 3em;
-        align-items: center;
-    }
-    .social-media-section{
-        justify-content: space-around;
-    }
-    .footer-item{
-        margin: 0 3em;
-    }
+@media (min-width: 961px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2em 3em;
+    align-items: center;
+  }
+  .social-media-section {
+    justify-content: space-around;
+  }
+  .footer-item {
+    margin: 0 3em;
+  }
 }

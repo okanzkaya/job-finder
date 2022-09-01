@@ -95,7 +95,6 @@ export const latestJobsData = [
     companyName: "Lorem Inc.",
     icon: jobs,
   },
-  
 ];
 
 latestJobsData.forEach((item, i) => {

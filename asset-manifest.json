@@ -1,19 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.68dffe6c.css",
-    "main.js": "/static/js/main.cb198054.js",
+    "main.css": "/static/css/main.d5de0093.css",
+    "main.js": "/static/js/main.66d5522f.js",
+    "static/media/history.svg": "/static/media/history.937dda8e400ca28c7edc6714174910a1.svg",
+    "static/media/digitalmarketer.svg": "/static/media/digitalmarketer.635f36ceea511386697985ec4a7ac20e.svg",
+    "static/media/resume.svg": "/static/media/resume.189665b9c7a83a1ee1810a7eb10ba97c.svg",
+    "static/media/threedots.svg": "/static/media/threedots.57c9c4d04a232691cc9547161f77f4c2.svg",
+    "static/media/location.svg": "/static/media/location.6ccba30c60c95c66011f5ed946335b6f.svg",
+    "static/media/magnify-glass.svg": "/static/media/magnify-glass.35b1ceb3ad4739fe47d18727f15e80b3.svg",
     "static/media/categories.svg": "/static/media/categories.71b20052da01f13e5d798fc24eedbd18.svg",
+    "static/media/alerts.svg": "/static/media/alerts.f9af967e3c3617399c81922c82f4d4f4.svg",
     "static/media/info.svg": "/static/media/info.6927ebfbd9b53da8d55584b2bf232d59.svg",
     "static/media/jobs.svg": "/static/media/jobs.2081bbac2035dadab235c0724eb19641.svg",
+    "static/media/better-recommendations.svg": "/static/media/better-recommendations.b039e73e8a92c8aedc426004382aecf1.svg",
+    "static/media/twitter-icon.svg": "/static/media/twitter-icon.7365be56f5a99a8ecfde0b980daea24b.svg",
     "index.html": "/index.html",
+    "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.921a40460aeaab2f372d7b2d1a70d752.svg",
     "static/media/person-avatar.svg": "/static/media/person-avatar.a33dbfc85dfba4354595151e230a019b.svg",
     "static/media/upload.svg": "/static/media/upload.1b625bf3b261cd537839e3f001a00e2c.svg",
+    "static/media/savedjobs.svg": "/static/media/savedjobs.6278d2babff402086e53de2aaa291d67.svg",
+    "static/media/postjob.svg": "/static/media/postjob.7ae6accc5128ab06a640196103a97221.svg",
     "static/media/home.svg": "/static/media/home.c27d9364d7217b17cc1f4d7554698c69.svg",
-    "main.68dffe6c.css.map": "/static/css/main.68dffe6c.css.map",
-    "main.cb198054.js.map": "/static/js/main.cb198054.js.map"
+    "static/media/facebook-icon.svg": "/static/media/facebook-icon.acbaf6925fa896de0209423e07b384f1.svg",
+    "static/media/softwaredeveloper.svg": "/static/media/softwaredeveloper.390a52c5269610bba59df05ae6aa601b.svg",
+    "static/media/businessanalyst.svg": "/static/media/businessanalyst.a6aeef15150c290174f8852183d975f1.svg",
+    "main.d5de0093.css.map": "/static/css/main.d5de0093.css.map",
+    "main.66d5522f.js.map": "/static/js/main.66d5522f.js.map"
   },
   "entrypoints": [
-    "static/css/main.68dffe6c.css",
-    "static/js/main.cb198054.js"
+    "static/css/main.d5de0093.css",
+    "static/js/main.66d5522f.js"
   ]
 }

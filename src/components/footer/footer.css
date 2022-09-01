@@ -66,7 +66,7 @@
 @media (min-width: 961px) {
   .footer-container {
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 2em 3em;
+    padding: 0em 3em;
     align-items: center;
   }
   .social-media-section {

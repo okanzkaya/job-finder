@@ -58,7 +58,7 @@
 .categories-pagination {
   display: grid;
   justify-content: center;
-  grid-template-columns: 0.2fr 0.3fr 0.2fr;
+  grid-template-columns: auto auto auto;
   background-color: white;
   border-radius: 15px;
   align-items: center;
@@ -83,4 +83,23 @@
 #categories-page-mover {
   display: flex;
   align-items: center;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 961px) {
+  .categories-upper-body-text {
+    margin: auto;
+    width: 50%;
+    justify-content: left;
+    font-size: 1.5em;
+  }
+  .categories-search {
+    width: 50%;
+    margin: 2em auto;
+  }
+  .categories-pagination {
+    width: 50%;
+    gap: 2em;
+    margin: 4em auto;
+  }
 }

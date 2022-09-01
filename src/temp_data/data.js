@@ -60,77 +60,6 @@ export const duplicatedJobData = [
   { name: "Digital Marketer", icon: digitalmarketer },
   { name: "Software Developer", icon: softwaredeveloper },
   { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
-  { name: "Software Developer", icon: softwaredeveloper },
-  { name: "Business Analyst", icon: businessanalyst },
-  { name: "Digital Marketer", icon: digitalmarketer },
   { name: "Software Developer", icon: softwaredeveloper },
   { name: "Business Analyst", icon: businessanalyst },
   { name: "Digital Marketer", icon: digitalmarketer },
@@ -195,5 +124,42 @@ export const latestJobsData = [
 ];
 
 latestJobsData.forEach((item, i) => {
+  item.id = i + 1;
+});
+
+export const aboutUsData = [
+  {
+    title: "Who are we?",
+    bodyText:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+  },
+  {
+    title: "Our mission",
+    bodyText:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+  },
+  {
+    title: "Privacy policy",
+    bodyText:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+  },
+  {
+    title: "Community",
+    bodyText:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+  },
+  {
+    title: "Help",
+    bodyText:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+  },
+  {
+    title: "Contact",
+    bodyText:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+  },
+];
+
+aboutUsData.forEach((item, i) => {
   item.id = i + 1;
 });

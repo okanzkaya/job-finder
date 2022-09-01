@@ -34,7 +34,7 @@ const Navbar = (props) => {
           <a href="/">Home</a>
           <a href="/jobs">Jobs</a>
           <a href="/categories">Categories</a>
-          <a href="#">About us</a>
+          <a href="/about-us">About us</a>
           <a href="#">
             <img src={upload} />
             Upload resumé
@@ -95,7 +95,7 @@ const Sidebar = () => {
         </div>
         <div className="menu-item">
           <img src={info} />
-          <a href="#">About us</a>
+          <a href="/about-us">About us</a>
         </div>
         <div className="menu-item">
           <img src={upload} />

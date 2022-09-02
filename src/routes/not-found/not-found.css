@@ -1,0 +1,40 @@
+.not-found-body {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 8em auto;
+  margin-bottom: 12em;
+}
+
+.not-found-body img {
+  width: 100%;
+}
+
+.not-found-body button {
+  width: 40%;
+  margin: 2em auto;
+  border: none;
+  background: #7583ff;
+  padding: 1em 1em;
+  border-radius: 16px;
+}
+
+.not-found-body button a {
+  color: white;
+  font-family: "Open-Sans", sans-serif;
+}
+
+
+@media only screen and (min-width: 961px) {
+    .not-found-body{
+        margin-bottom: 4em;
+    }
+    .not-found-body img{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 3em;
+    }
+    .not-found-body button {
+        width: 10%;
+    }
+}
